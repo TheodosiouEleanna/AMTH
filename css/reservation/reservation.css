@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   width: 1000px;
-  height: 800px;
+  height: 900px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -57,11 +57,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 48%;
+  width: 50%;
 }
 .radios {
   display: flex;
   flex-direction: column;
+  letter-spacing: 0.05em;
 }
 .radio {
   padding: 10px;
@@ -82,8 +83,9 @@ textarea {
   margin: 0.5rem 0.75rem;
   font-size: 1rem;
   line-height: 1.2;
+  letter-spacing: 0.05em;
   color: #495057;
-  background-color: #fff;
+  background-color: #f0f3f7;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   font-family: "Noto Sans", sans-serif;
@@ -97,8 +99,7 @@ input[type="date"]:focus,
 input[type="number"]:focus,
 input[type="tel"]:focus {
   color: #495057;
-  background-color: #fff;
-  border-color: #80bdff;
+  border-color: #9ccaeb;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(82, 166, 255, 0.25);
 }
@@ -109,24 +110,11 @@ input[type="tel"]:focus {
   color: #495057;
   pointer-events: none;
   padding-bottom: 0;
-}
-
-input[type="text"]:focus ~ label,
-input[type="text"]:not(:placeholder-shown) ~ label {
-  font-size: 0.75rem;
-  transform: translate3d(0, -1.5rem, 0) scale3d(0.833, 0.833, 1);
-}
-
-input[type="text"]:focus ~ label {
-  color: #acd4ff;
-}
-
-input[type="text"]:not(:placeholder-shown) ~ label {
-  color: #6c757d;
+  letter-spacing: 0.05em;
 }
 .register_btn {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   right: 90px;
   width: 30%;
   margin: 20px;
@@ -157,11 +145,15 @@ input[type="text"]:not(:placeholder-shown) ~ label {
   .reservation_form {
     width: 850px;
     height: 850px;
+    padding: 50px 50px 70px 50px;
   }
   .select_type {
-    width: 54%;
+    width: 52%;
   }
   .page-title {
     width: 850px;
+  }
+  .register_btn {
+    right: 40px;
   }
 }
