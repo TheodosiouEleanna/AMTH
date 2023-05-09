@@ -1,3 +1,3 @@
 # AMTH
-Site clone for the Archeological Museum of Thessaloniki 
+Site clone for the Archeological Museum of Thessaloniki, 
 Vanilla css, js.
