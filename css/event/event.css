@@ -10,7 +10,7 @@
   font-family: "Noto Sans", sans-serif;
 }
 .page-title:after {
-  height: 0.213rem;
+  height: 0.113rem;
   content: "";
   margin-top: 0.5rem;
   margin-bottom: 0.688rem;

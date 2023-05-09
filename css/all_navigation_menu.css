@@ -7,7 +7,7 @@
 .navigation_menu {
   display: flex;
   width: 100%;
-  height: 12vh;
+  height: 100px;
 }
 
 .menu {
@@ -67,23 +67,16 @@
 .scroll-locked {
   overflow: hidden;
 }
-@media screen and (max-width: 1121px) {
-  .navigation_menu {
-    height: 16vh;
-  }
-}
+
 @media screen and (max-width: 991px) {
-  .navigation_menu {
-    height: 12vh;
-  }
   .header_logo {
     left: -50px;
   }
   .logo {
-    height: 10vh;
+    height: 100px;
   }
   ul {
-    height: 12vh;
+    height: 100px;
   }
   .menu_item {
     display: none;

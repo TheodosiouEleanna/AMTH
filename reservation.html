@@ -5,6 +5,7 @@
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/solid.min.css">
     <link rel="stylesheet" href="css/all_navigation_menu.css" />
     <link rel="stylesheet" href="css/all_footer_menu.css" />
+    <link rel="stylesheet" href="css/reservation/reservation.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/views/style.js"></script>
   </head>
@@ -63,58 +64,70 @@
           </div>
         </ul>
     </div>
+      <div class='page-title'>
+        <h1>Reservation</h1>
+      </div>
 
     <div class='reservation_form'>
-
+      <div class='form-title'>
+        <h3>Book your reservation</h3>
+      </div>
       <div class="username">
-        <h2>Your Name</h2>
+        <h2 class='input-label'>Your Name</h2>
         <input type="text" placeholder="Enter Username..." mexlength="50" autocomplete="name" required>
       </div>
 
       <div class="email">
-        <h2>Your Email</h2>
+        <h2 class='input-label'>Your Email</h2>
         <input type="text" placeholder="Enter Email..." maxlength="64" autocomplete="email" required>
       </div>
 
       <div class="phone_number">
-        <h2>Your Phone</h2>
+        <h2 class='input-label'>Your Phone</h2>
         <input type="tel" placeholder="Enter Number..." maxlength="20" autocomplete="on" required>
       </div>
 
       <div class="calendar">
-        <h2>Date of Event</h2>
+        <h2 class='input-label'>Date of Event</h2>
         <input type="date">
       </div>
 
       <div class="select_type">
-        <h2>Select</h2>
-        <input type="radio" id= "University_Student" value="University Student">
-        <label for="University_Student">University Student</label><br>
-
-        <input type="radio" id= "School_Student" value="School Student">
-        <label for="School_Student">School Student</label><br>
-
-        <input type="radio" id= "Other" value="Other">
-        <label for="Other">Other</label><br>
+        <h2 class='input-label'>Select</h2>
+        <div class='radios'>
+          <div class='radio'>
+            <input type="radio" id= "University_Student" value="University Student">
+            <label for="University_Student">University Student</label>
+          </div>
+          <div class='radio'>
+            <input type="radio" id= "School_Student" value="School Student">
+            <label for="School_Student">School Student</label>
+          </div>
+          <div class='radio'>
+            <input type="radio" id= "Other" value="Other">
+            <label for="Other">Other</label>
+          </div>
+        </div>
+        
       </div>
 
       <div class="seat_number">
-        <h2>Number of People</h2>
+        <h2 class='input-label'>Number of People</h2>
         <input type="number" id="seat_number">
       </div>
 
       <div class="event_dropdown">
-        <h2>Select your Event</h2>
+        <h2 class='input-label'>Select your Event</h2>
         <select class="event_options"></select>
       </div>
 
       <div class="exhibition_dropdown">
-        <h2>Select your Exhibition</h2>
+        <h2 class='input-label'>Select your Exhibition</h2>
         <select class="exhibition_options"></select>
       </div>
 
       <div class="message">
-        <h2>Anything Else?</h2>
+        <h2 class='input-label'>Anything Else?</h2>
         <textarea class="message-input" placeholder='Your Message:' rows="5" cols="40" aria-invalid='false'></textarea>
       </div>
       <button type="button" class="register_btn">Book</button>

@@ -90,12 +90,25 @@
 .contact-details:hover {
   text-decoration: underline white;
 }
+@media screen and (max-width: 1121px) {
+  .inner_footer {
+    flex-direction: column;
+  }
+  .footer_menu {
+    height: 120vh;
+  }
+  .footer_logo {
+    width: 60%;
+    height: 70vh;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .inner_footer {
     flex-direction: column;
   }
   .footer_menu {
-    height: 90vh;
+    height: 60vh;
   }
   .footer-parts {
     display: flex;
@@ -103,6 +116,6 @@
   }
   .footer_logo {
     width: 60%;
-    height: 50vh;
+    height: 35vh;
   }
 }
