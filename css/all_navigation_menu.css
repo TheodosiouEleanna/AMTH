@@ -126,6 +126,7 @@
   }
   .sidebar_item a {
     color: #ddd;
+    font-size: 26px;
   }
   .hidden {
     opacity: 0;
@@ -197,7 +198,7 @@
     display: none;
   }
   .sidebar_item a {
-    font-size: 24px;
+    font-size: 30px;
     color: #ddd;
   }
   .show-nav {
